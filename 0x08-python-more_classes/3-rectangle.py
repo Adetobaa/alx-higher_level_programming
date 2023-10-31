@@ -1,16 +1,16 @@
 #!/usr/bin/python3
-
 """Defines a class Rectangle."""
 
+
 class Rectangle:
-    """Represents rectangle. Nil body."""
+    """Represents a rectangle. No body."""
 
     def __init__(self, width=0, height=0):
-        """Initialize new Rectangle.
+        """Initialize a new Rectangle.
 
         Args:
-            width (int): width of the new rectangle.
-            height (int): height of the new rectangle.
+            width (int): The width of the new rectangle.
+            height (int): The height of the new rectangle.
         """
         self.width = width
         self.height = height
@@ -44,20 +44,20 @@ class Rectangle:
         self.__height = value
 
     def area(self):
-        """Return area of the Rectangle."""
+        """Return the area of the Rectangle."""
         return (self.__width * self.__height)
 
     def perimeter(self):
-        """Return perimeter of the Rectangle."""
+        """Return the perimeter of the Rectangle."""
         if self.__width == 0 or self.__height == 0:
             return (0)
         return (2*(self.__width + self.__height))
 
     def __str__(self):
-        """Return printable representation of the Rectangle.
+        """Return the printable representation of the Rectangle.
 
-        Represents rectangle with the # character"""
-
+        Represents the rectangle with the # character.
+        """
         if self.__width == 0 or self.__height == 0:
             return ("")
 

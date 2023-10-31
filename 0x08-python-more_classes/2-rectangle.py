@@ -1,6 +1,6 @@
 #!/usr/bin/python3
+"""Defines a class Rectangle."""
 
-"""Define class Rectangle."""
 
 class Rectangle:
     """Represents a rectangle. No body."""
@@ -10,7 +10,8 @@ class Rectangle:
 
         Args:
             width (int): The width of the new rectangle.
-            height (int): The height of the new rectangle."""
+            height (int): The height of the new rectangle.
+        """
         self.width = width
         self.height = height
 
@@ -48,7 +49,6 @@ class Rectangle:
 
     def perimeter(self):
         """Return the perimeter of the Rectangle."""
-
         if self.__width == 0 or self.__height == 0:
             return (0)
         return (2*(self.__width + self.__height))
