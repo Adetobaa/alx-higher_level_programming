@@ -6,8 +6,8 @@ def matrix_mul(m_a, m_b):
     """Multiply two matrices(lists of lists of integers/floats)
     
     Args:
-        m_a (list of lists of ints/floats): first matrix.
-        m_b (list of lists of ints/floats): second matrix.
+        m_a (list of lists of ints/floats): First matrix.
+        m_b (list of lists of ints/floats): Second matrix.
     
     Raises:
         TypeError: if either m_a or m_b is not list or list of lists is not an integer or a float 
